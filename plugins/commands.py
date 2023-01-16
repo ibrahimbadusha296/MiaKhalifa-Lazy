@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🔔 Updates 🤖', url='https://t.me/TV_Seriessss')
+                InlineKeyboardButton('🔔 Updates 🤖', url='https://t.me/PrimePornZ')
             ],
             [
                 InlineKeyboardButton('🙆🏻 Help 🦾', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -360,7 +360,7 @@ async def delete_all_index(bot, message):
 @Client.on_callback_query(filters.regex(r'^autofilter_delete'))
 async def delete_all_index_confirm(bot, message):
     await Media.collection.drop()
-    await message.answer('♥️ Thank You @TV_Seriessss ♥️')
+    await message.answer('♥️ Thank You PrimePornZ ♥️')
     await message.message.edit('Succesfully Deleted All The Indexed Files.')
 
 
