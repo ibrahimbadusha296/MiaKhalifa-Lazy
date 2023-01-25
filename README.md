@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://github.com/LazyDeveloperr/LazyPrincess/blob/master/assets/lazyprincessbot.jpg" alt="Lazy Princess Logo">
+  <img src="https://te.legra.ph/file/e21fe52a07baf80f3bbe2.jpg" alt="Mia Khalifa Logo">
 </p>
 <h1 align="center">
-  <b> Lazy Princess BOT </b>
+  <b> Mia Khalifa BOT </b>
 </h1>
 
 ## ⚡️Features
