@@ -83,9 +83,9 @@ async def next_page(bot, query):
             for file in files
         ]
 
-btn.insert(0,
+    btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡Join Our Main Channel ⚡", url='https://t.me/PrimePornZ')
+            InlineKeyboardButton(text="⚡Main Channel⚡", url='https://telegram.me/LazyDeveloper')
         ]
     )
 
@@ -618,7 +618,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
-    await query.answer('♥️ Thank You LazyDeveloper ♥️')
+    await query.answer('♥️ Thank You PrimePornZ ♥️')
 
 
 async def auto_filter(client, msg, spoll=False):
@@ -667,9 +667,9 @@ async def auto_filter(client, msg, spoll=False):
             for file in files
         ]
 
-btn.insert(0,
+    btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡Join Our Main Channel ⚡", url='https://t.me/PrimePornZ')
+            InlineKeyboardButton(text="⚡Main Channel⚡", url='https://telegram.me/LazyDeveloper')
         ]
     )
 
