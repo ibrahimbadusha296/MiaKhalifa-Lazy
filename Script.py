@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """Hello {},
-Myself <a href=https://t.me/{}>{}</a>,\n\nJoin Our Main Channel @PrimePornZ \n\nJoin Our Group https://t.me/BrazzersRequestGroup"""
+Myself <a href=https://t.me/{}>{}</a>,\n\nJoin Our Main Channel @BrazziHubz \n\nJoin Our Group https://t.me/BrazzersRequestGroup"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 Here is the help for my COMMANDS."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
