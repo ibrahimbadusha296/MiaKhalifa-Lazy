@@ -85,7 +85,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡Main Channel⚡", url='https://telegram.me/PrimePornZ')
+            InlineKeyboardButton(text="⚡Main Channel⚡", url='https://telegram.me/zz_vidz')
         ]
     )
 
@@ -163,7 +163,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     title = chat.title
                 except:
                     await query.message.edit_text("Make sure I'm present in your group!!", quote=True)
-                    return await query.answer('♥️ Love @PrimePornZ ♥️')
+                    return await query.answer('♥️ Love @zz_vidz ♥️')
             else:
                 await query.message.edit_text(
                     "I'm not connected to any groups!\nCheck /connections or connect to any groups",
@@ -176,7 +176,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             title = query.message.chat.title
 
         else:
-            return await query.answer('♥️ Thank You @PrimePornZ ♥️')
+            return await query.answer('♥️ Thank You @zz_vidz ♥️')
 
         st = await client.get_chat_member(grp_id, userid)
         if (st.status == enums.ChatMemberStatus.OWNER) or (str(userid) in ADMINS):
@@ -230,7 +230,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=keyboard,
             parse_mode=enums.ParseMode.MARKDOWN
         )
-        return await query.answer('♥️ Thank You @PrimePornZ ♥️')
+        return await query.answer('♥️ Thank You @zz_vidz ♥️')
     elif "connectcb" in query.data:
         await query.answer()
 
@@ -251,7 +251,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
         else:
             await query.message.edit_text('Some error occurred!!', parse_mode=enums.ParseMode.MARKDOWN)
-        return await query.answer('♥️ Thank You @PrimePornZ ♥️')
+        return await query.answer('♥️ Thank You @zz_vidz ♥️')
     elif "disconnect" in query.data:
         await query.answer()
 
@@ -274,7 +274,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer('♥️ Thank You @PrimePornZ ♥️')
+        return await query.answer('♥️ Thank You @zz_vidz ♥️')
     elif "deletecb" in query.data:
         await query.answer()
 
@@ -292,7 +292,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer('♥️ Thank You @PrimePornZ ♥️')
+        return await query.answer('♥️ Thank You @zz_vidz ♥️')
     elif query.data == "backcb":
         await query.answer()
 
@@ -303,7 +303,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_text(
                 "There are no active connections!! Connect to some groups first.",
             )
-            return await query.answer('♥️ Thank You @PrimePornZ ♥️')
+            return await query.answer('♥️ Thank You @zz_vidz ♥️')
         buttons = []
         for groupid in groupids:
             try:
@@ -413,7 +413,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🧞‍♀️ Search 🧐', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔔 Main Channel 🤖', url='https://t.me/PrimePornZ')
+            InlineKeyboardButton('🔔 Main Channel 🤖', url='https://t.me/zz_vidz')
         ], [
             InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
             InlineKeyboardButton('♥️ About ♥️', callback_data='about')
@@ -424,7 +424,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        await query.answer('♥️ Thank You @PrimePornZ ♥️')
+        await query.answer('♥️ Thank You @zz_vidz ♥️')
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
@@ -444,7 +444,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🔔 Main Channel 🤖', url='https://t.me/PrimePornZ'),
+            InlineKeyboardButton('🔔 Main Channel 🤖', url='https://t.me/zz_vidz'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
